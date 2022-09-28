@@ -2,16 +2,16 @@
 
 Some stuff for make Steam Big Picture more comfortable.
 
-1. devilspie2 script for control steam big picture window with connected HDMI (ARC) TV screen. 
+1. devilspie2 scripts for control steam big picture window with connected HDMI (ARC) TV screen. 
 It switch sound to HDMI and move Big Picture window to HDMI screen. If Big Picture mode was closed it move main Steam window to main screen.
 
 `sudo apt-get install devilspie2`
 
-In config need to set name of sound sinks and size of main screen if HDMI screen right of main.
+Need to set name of sound sinks and size of main screen in configs.
 
 Sink names list: `pactl list short`
 
-Config must be placed to `~/.config/devilspie2/steam.lua`
+Config (all lua scripts) must be placed to `~/.config/devilspie2/`
 
 2. desktop file to start Steam silently. Must be placed to `/usr/shared/applications/steam.desktop`
 And you can set autostart it. It started with HiDPI size of UI.
