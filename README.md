@@ -10,6 +10,7 @@ It switch sound to HDMI and move Big Picture window to HDMI screen. If Big Pictu
 Need to set name of sound sinks and size of main screen in configs.
 
 Sink names list: `pactl list short`
+Output list: `xrandr`
 
 Config (all lua scripts) must be placed to `~/.config/devilspie2/`
 
